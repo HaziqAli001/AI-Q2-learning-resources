@@ -27,7 +27,9 @@ def function1():
     # dimension should be 6row 2 columns  
     # and assign this array values in x values in x variable
     # Hint: you can use arange and reshape numpy methods  
-    x =  # Write your code here 
+    x = np.arange(1,13)
+    x=x.reshape((6,2))
+    # Write your code here 
 
     return x
     """
