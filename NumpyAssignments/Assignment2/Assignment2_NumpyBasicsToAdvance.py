@@ -25,10 +25,9 @@ import numpy as np
 def function1():
     # create 2d array from 1,12 range 
     # dimension should be 6row 2 columns  
-    # and assign this array values in x values in x variable
-    # Hint: you can use arange and reshape numpy methods  
-    x =  # Write your code here 
-
+    # and assign this array values in x values in x variable 
+    x = np.arange(1,13)
+    x=x.reshape((6,2))
     return x
     """
     expected output:
@@ -48,7 +47,9 @@ def function2():
     #array value should be satart from 10 and end with 36 (both included)
     # Hint: dtype, reshape 
     
-    x =     #wrtie your code here
+    x =  np.array(np.arange(10,37),dtype=np.float64)
+    x=x.reshape((3,3,3))
+    #wrtie your code here
 
 
     return x
